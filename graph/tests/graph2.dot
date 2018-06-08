@@ -1,0 +1,28 @@
+graph lab03c {
+
+A -- B [label=24];
+A -- F [label=6];
+B -- C [label=17];
+B -- G [label=14];
+C -- D [label=22];
+C -- H [label=14];
+D -- E [label=22];
+D -- I [label=27];
+E -- I [label=6];
+F -- K [label=1];
+F -- G [label=16];
+G -- H [label=16];
+G -- L [label=27];
+H -- M [label=29];
+H -- I [label=29];
+I -- M [label=7];
+K -- P [label=21];
+K -- L [label=9];
+L -- Q [label=27];
+L -- M [label=25];
+M -- Q [label=17];
+P -- Q [label=6];
+P -- U [label=12];
+Q -- U [label=9];
+}
+
